@@ -32,8 +32,8 @@ jobs:
             - name: Archive build output
               run: |
                   cd ..
-                  tar --dereference --hard-dereference --directory personal-website/ -cvf artifact.tar .
-                  mv ./artifact.tar ./personal-website
+                  tar --dereference --hard-dereference --directory rimikadhara67.github.io/ -cvf artifact.tar .
+                  mv ./artifact.tar ./rimikadhara67.github.io
             - name: Upload Artifact
               uses: actions/upload-artifact@main
               with:
