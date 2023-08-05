@@ -1,5 +1,5 @@
 import LineGradient from "../components/LineGradient";
-import useMediaQuery from "../hooks/useMediaQuery";
+// import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
