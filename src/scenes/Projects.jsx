@@ -34,13 +34,6 @@ const Projects = () => {
                 identify and solve the problems around me – whether it be optimizing something, automating a trivial day-today task
                 or finding ways to solve an exisiting problem.
             </p>
-            <a
-                className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-                hover:bg-blue hover:text-white transition duration-500"
-                href="https://docs.google.com/document/d/10YAJaV2JweWmyQUOJKrE2CNrlcnas4r1adRQ92HXnWw/edit?usp=sharing"
-            >
-                Resume
-            </a>
         </div>
         </motion.div>
         <motion.div

@@ -56,7 +56,7 @@ const Landing = ({setSelectedPage}) => {
                 </motion.div>
                 {/* CALL TO ACTIONS */}
                 <motion.div
-                className="flex mt-5 justify-center md:justify-start"
+                className="flex mt-5 gap-3 justify-center md:justify-start"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -72,14 +72,23 @@ const Landing = ({setSelectedPage}) => {
                     onClick={() => setSelectedPage("contact")}
                     href="#contact"
                 >
-                    Contact Me
+                    Contact
                 </AnchorLink>
                 <a
-                    className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+                    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                    hover:bg-blue hover:text-white transition duration-500"
                     href="https://www.rimikawrites.com/"
                 >
-                    <div className="bg-deep-blue hover:text-light-purple transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-                    My Blog
+                    Blog
+                </a>
+                
+                <a
+                    className="rounded-sm bg-gradient-rainblue py-0.5 pr-0.5"
+                    href="https://docs.google.com/document/d/10YAJaV2JweWmyQUOJKrE2CNrlcnas4r1adRQ92HXnWw/edit?usp=sharing"
+                >
+                    <div className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                    hover:bg-blue hover:text-white transition duration-500">
+                    Resume
                     </div>
                 </a>
                 </motion.div>
