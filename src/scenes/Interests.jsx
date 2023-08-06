@@ -32,13 +32,22 @@ const Interests = () => {
                     my time, energy, and passion. If I am not coding, I am either dancing, writing or capturing the moment on my phone 
                     or camera.
                     </p>
-                    <a
-                        className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-                        hover:bg-blue hover:text-white transition duration-500"
-                        href="https://www.rimikawrites.com/"
-                    >
-                        My Blog
-                    </a>
+                    <div className="flex flex-wrap gap-3 justify-center">
+                      <a
+                          className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                          hover:bg-blue hover:text-white transition duration-500"
+                          href="https://www.rimikawrites.com/"
+                      >
+                          My Blog
+                      </a>
+                      <a
+                          className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                          hover:bg-blue hover:text-white transition duration-500"
+                          href="https://vsco.co/-rimika/gallery"
+                      >
+                          My VSCO
+                      </a>
+                    </div>
                 </div>
             </motion.div>
 
@@ -47,7 +56,7 @@ const Interests = () => {
         
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto rounded-md relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-150px] before:-ml-[110px] before:left-1/2 before:content-person2"
           initial="hidden"
           whileInView="visible"
@@ -65,7 +74,7 @@ const Interests = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto rounded-md relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-150px] before:-ml-[110px] before:left-1/2 before:content-person1"
           initial="hidden"
           whileInView="visible"
@@ -83,7 +92,7 @@ const Interests = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto rounded-md relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-150px] before:-ml-[110px] before:left-1/2 before:content-person3"
           initial="hidden"
           whileInView="visible"
@@ -96,7 +105,7 @@ const Interests = () => {
         >
           <p className="text-center text-l font-opensans">
             I love capturing life as I see it! Capturing and editing pictures help me cherish and relive some of my best moments.
-            Taking pictures is my way to destress and live in the moment! 
+            Check out my VSCO above to see life through my lens! 
           </p>
         </motion.div>
       </div>

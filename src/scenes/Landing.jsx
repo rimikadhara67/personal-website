@@ -67,7 +67,7 @@ const Landing = ({setSelectedPage}) => {
                 }}
                 >
                 <AnchorLink
-                    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                    className="bg-gradient-rainblue text-deep-blue rounded-md py-3 px-7 font-semibold
                     hover:bg-blue hover:text-white transition duration-500"
                     onClick={() => setSelectedPage("contact")}
                     href="#contact"
@@ -75,7 +75,7 @@ const Landing = ({setSelectedPage}) => {
                     Contact
                 </AnchorLink>
                 <a
-                    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                    className="bg-gradient-rainblue text-deep-blue rounded-md py-3 px-7 font-semibold
                     hover:bg-blue hover:text-white transition duration-500"
                     href="https://www.rimikawrites.com/"
                 >
@@ -83,10 +83,10 @@ const Landing = ({setSelectedPage}) => {
                 </a>
                 
                 <a
-                    className="rounded-sm bg-gradient-rainblue py-0.5 pr-0.5"
+                    className="rounded-md bg-gradient-rainblue py-0.5 pr-0.5"
                     href="https://docs.google.com/document/d/10YAJaV2JweWmyQUOJKrE2CNrlcnas4r1adRQ92HXnWw/edit?usp=sharing"
                 >
-                    <div className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                    <div className="bg-gradient-rainblue text-deep-blue rounded-md py-3 px-7 font-semibold
                     hover:bg-blue hover:text-white transition duration-500">
                     Resume
                     </div>
