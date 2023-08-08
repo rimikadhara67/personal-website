@@ -34,14 +34,14 @@ const Interests = () => {
                     </p>
                     <div className="flex flex-wrap gap-3 justify-center">
                       <a
-                          className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                          className="bg-gradient-rainblue text-deep-blue rounded-md py-3 px-7 font-semibold
                           hover:bg-blue hover:text-white transition duration-500"
                           href="https://www.rimikawrites.com/"
                       >
                           My Blog
                       </a>
                       <a
-                          className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                          className="bg-gradient-rainblue text-deep-blue rounded-md py-3 px-7 font-semibold
                           hover:bg-blue hover:text-white transition duration-500"
                           href="https://vsco.co/-rimika/gallery"
                       >
