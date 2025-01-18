@@ -84,7 +84,7 @@ const Landing = ({setSelectedPage}) => {
                 
                 <a
                     className="rounded-md bg-gradient-rainblue py-0.5 pr-0.5"
-                    href=""
+                    href="https://drive.google.com/file/d/1KL974mzZdXQHN6W3ksgzhtZjQFdhqit7/view?usp=sharing"
                 >
                     <div className="bg-gradient-rainblue text-deep-blue rounded-md py-3 px-7 font-semibold
                     hover:bg-blue hover:text-white transition duration-500">
