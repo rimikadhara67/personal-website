@@ -4,22 +4,88 @@ import projectImg03 from "../project-images/project-03.png";
 import projectImg04 from "../project-images/project-04.png";
 import projectImg05 from "../project-images/project-05.png";
 import projectImg06 from "../project-images/project-06.png";
+import projectImg07 from "../project-images/project-07.png";
+import projectImg08 from "../project-images/project-08.png";
+import projectImg09 from "../project-images/project-09.png";
+import projectImg10 from "../project-images/project-10.png";
+import projectImg11 from "../project-images/project-11.png";
+import projectImg12 from "../project-images/project-12.png";
 
 const projects = [
   {
     id: "01",
     imgUrl: projectImg01,
     category: "ML",
+    title: "Scalable Eye-Tracking for RLHF",
+    description:
+      "Developing a fine-grained alignment model using distributional Reinforcement Learning from Human Feedback (RLHF) for improved natural language understanding from scalable eye-tracking data",
+    technologies: ["Reinforcement Learning", "Python", "JsPsych"],
+    siteUrl: "#",
+  },
+  {
+    id: "02",
+    imgUrl: projectImg02,
+    category: "ML",
+    title: "Recommender System with RLHF",
+    description:
+      "Engineering an RLHF-based algorithm to address cold-start issue in recommender systems, enabling faster personalization through interactive text-based feedback.",
+    technologies: ["Recommender Systems", "Python", "ML"],
+    siteUrl: "#",
+  },
+  {
+    id: "03",
+    imgUrl: projectImg03,
+    category: "ML",
+    title: "6-Step Optimization to GeMMs",
+    description:
+      "Enhancing the performance of FP32 General Matrix Multiplications (GeMMs) with optimizations such as coalescing, tiling, coarsening, and vectorization.",
+    technologies: ["CUDA", "GPU Programming", "Performance Optimization", "Distributed Systems"],
+    siteUrl: "#",
+  },
+  {
+    id: "04",
+    imgUrl: projectImg04,
+    category: "ML",
+    title: "7-Step Optimization to Parallel Reductions",
+    description:
+      "A series of 7 optimizations we can perform on our reduction algorithm to make it faster and more efficient on GPUs.",
+    technologies: ["CUDA", "GPU Programming", "Performance Optimization", "Distributed Systems"],
+    siteUrl: "#",
+  },
+  {
+    id: "05",
+    imgUrl: projectImg05,
+    category: "ML",
+    title: "Generative Python Transformer Model",
+    description:
+      "Engineering an GPT-2 model for Python code generation with 4.3GB of Python data gathered from GitHub API",
+    technologies: ["Python", "PyTorch", "NLP", "Transformers"],
+    siteUrl: "#",
+  },
+  {
+    id: "06",
+    imgUrl: projectImg06,
+    category: "ML",
+    title: "Reinforcement Learning with Super Mario Bros Gameplay",
+    description:
+      "Trained an Reinforcement Learning agent with a Deep Q-Network to autonomously complete the Super Mario Bros game",
+    technologies: ["PyTorch", "Reinforcement Learning", "Distributed Systems"],
+    siteUrl: "#",
+  },
+  {
+    id: "07",
+    imgUrl: projectImg07,
+    category: "ML",
     title: "Movie Recommender System",
     description:
       "Created a Content-based Filtering Model and a Collaborative Filtering Model using Linear Algebra techniques – SVD for Matrix Factorization, PCA Dimensionality Reduction, and Cosine Similarity Function. Built a Matrix Factorization algorithm from scratch and optimized accuracy by 70% and response time by 30%.",
-    technologies: ["Pandas", "Numpy", "SciKit-Learn", "Linear Algebra", "Feature Extraction"],
+    technologies: ["Recommender Systems", "Pandas", "Numpy", "SciKit-Learn", "Linear Algebra", "Feature Extraction"],
     siteUrl: "#",
   },
   
   {
-    id: "03",
-    imgUrl: projectImg02,
+    id: "08",
+    imgUrl: projectImg08,
     category: "ML",
     title: "Breast Cancer Detection Model",
     description:
@@ -28,8 +94,8 @@ const projects = [
     siteUrl: "#",
   },
   {
-    id: "02",
-    imgUrl: projectImg03,
+    id: "09",
+    imgUrl: projectImg09,
     category: "AI",
     title: "DocuQuery",
     description:
@@ -38,8 +104,8 @@ const projects = [
     siteUrl: "#",
   },
   {
-    id: "04",
-    imgUrl: projectImg04,
+    id: "10",
+    imgUrl: projectImg10,
     category: "UI/UX",
     title: "Google - Software Product Sprint",
     description:
@@ -49,8 +115,8 @@ const projects = [
   },
 
   {
-    id: "05",
-    imgUrl: projectImg05,
+    id: "11",
+    imgUrl: projectImg11,
     category: "Web Design",
     title: "Neuromodulation Research",
     description:
@@ -59,8 +125,8 @@ const projects = [
     siteUrl: "#",
   },
   {
-    id: "06",
-    imgUrl: projectImg06,
+    id: "12",
+    imgUrl: projectImg12,
     category: "ux",
     title: "Aged-Macular Degeneration Research",
     description:
